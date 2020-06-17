@@ -14,4 +14,5 @@ def html(request):
     <body>
     </html>
     """
+    
     return HttpResponse(documento)
