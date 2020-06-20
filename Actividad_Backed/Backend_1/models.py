@@ -1,10 +1,11 @@
 from django.db import models
-
+from django.core.management.utils import get_random_secret_key
 
 # Create your models here.
 
+
 class clientes (models.Model):
-    numero_cc = models.IntegerField()
+    numero_cc = models.IntegerField(max_length=None)
     id_compra = models.IntegerField()
     nombre = models.CharField(max_length=30)
     apellido = models.CharField(max_length=20)

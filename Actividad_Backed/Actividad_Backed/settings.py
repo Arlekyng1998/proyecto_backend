@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STATICFILES_DIR = ['/home/jhon/Documentos/proyecto_backend/Actividad_Backed/Platillas/static/']
+
 
 # Application definition
 
@@ -56,7 +58,7 @@ ROOT_URLCONF = 'Actividad_Backed.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/jhon/Documentos/proyecto_backend/Actividad_Backed/Platillas/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

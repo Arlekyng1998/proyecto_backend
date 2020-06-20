@@ -1,7 +1,7 @@
 from django.contrib import admin
-from Backend_1.models import clientes
-from Backend_1.models import ventas
-from Backend_1.models import inventario
+from Backend_1.models import *
+
+
 
 
 # Register your models here.

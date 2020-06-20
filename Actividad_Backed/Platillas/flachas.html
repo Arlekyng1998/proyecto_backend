@@ -1,0 +1,33 @@
+(% load static %)
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Miproyacto en django</title>
+    <style>
+    p
+    {
+      color: red;
+    }
+    body
+    {
+      background-image: url(https://format-com-cld-res.cloudinary.com/image/private/s--gSTiFHX4--/c_limit,g_center,h_65535,w_1200/a_auto,fl_keep_iptc.progressive,q_95/35227-4909728-pQT0l.gif);
+    }
+    canvas
+    {
+      background-color: #696667;
+    }
+    h1
+    {
+      color: #c9c3c5;
+    }
+    </style>
+  </head>
+  <body>
+    <canvas width="300" height="300" id="area_de_dibujo"></canvas>
+    <h1><strong>Disfruta jugando</strong></h1>
+    <p><strong>Proyecto django Para atras ni para agarra impulso</strong></p>
+    <script src="(% static '/lib/eventos.js'%)">
+    </script>
+  </body>
+</html>
